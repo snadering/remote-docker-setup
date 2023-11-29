@@ -29,7 +29,7 @@ services:
     container_name: "europemap_container"
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.europe.rule=Host(`dat2.skr.dk/`)"
+      - "traefik.http.routers.europe.rule=Host(`shopmate.skr.dk/`)"
       - "traefik.http.routers.europe.entrypoints=websecure"
       - "traefik.http.routers.europe.tls.certresolver=myresolver"
       - "com.centurylinklabs.watchtower.enable=true"
